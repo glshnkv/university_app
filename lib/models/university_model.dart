@@ -9,10 +9,11 @@ class UniversityModel {
   final List<String> disadvantages;
   final List<SpecialityModel> specialities;
 
-  UniversityModel(this.description,
+  UniversityModel(
       {required this.name,
       required this.location,
       required this.rate,
+      required this.description,
       required this.advantages,
       required this.disadvantages,
       required this.specialities});
